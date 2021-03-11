@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&display=swap');
+		body{
+			max-width: 1200px;
+			margin: 0 auto;
+			font-family: 'Merriweather', serif;
+			padding: 0 20px;
+		}
+		header {
+			border-bottom: 1px solid #ddd;
+			display: flex;
+			justify-content: space-between;
+			align-items: center; 
+
+		}
+
+		header ul li{
+			display: inline-block;
+			list-style: none;
+			margin-left:0 20px;
+			padding: 8px;
+		}
+
+		header h1{
+			font-weight: 900;
+			font-size: 35px;
+			margin: 0px;
+		}
+		header h1 a{
+			text-decoration: none;
+			color: black;
+		}
+		header a:hover {
+			color: #cc1c65;
+			transition: .1s;
+		}
+
+		header ul li a{
+			text-decoration: none;
+			color: #222;
+		}
+
+		.page-home main {
+			margin-top: 180px;
+		}
+
+		main p{
+			font-size: 2rem;
+			font-weight: 300;
+			margin: 15px 0;
+		}
+
+		main a{
+			text-decoration: none;
+			color: white;
+			border: 1px solid #1e21be;
+			background-color: #1e21be;
+			padding:20px 40px;
+			display: inline-block;
+		}
+
+		main a:hover {
+			background-color: black;
+			transition: .2s;
+		}
+
+		.page-create h2{
+			font-weight: normal;
+		}
+
+		.page-create input[type="text"],
+		.page-create textarea {
+			display: block;
+			padding: 10px;
+			font-size: 1rem;
+			border: 1px solid #ccc;
+			border-radius: 0;
+			margin-bottom: 10px;
+			width: 50%;
+		}
+
+		.page-create input [type="submit"]{
+			text-decoration: none;
+			color: white;
+			border: 1px solid #1e21be;
+			background-color: #1e21be;
+			padding:20px 40px;
+			display: inline-block;
+
+		}
